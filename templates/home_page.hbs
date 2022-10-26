@@ -20,6 +20,7 @@
           {{#if ../has_multiple_categories}}
             <li class="blocks-item">
               <a href='{{url}}' class="blocks-item-link">
+              {{asset category.id prefix='icon-' suffix='.png'}}
                 <span class="blocks-item-title">{{name}}</span>
                 <span class="blocks-item-description">{{excerpt description}}</span>
               </a>
