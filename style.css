@@ -1360,6 +1360,7 @@ ul {
   width: 1em;
   height: 1em;
   font-size: 70px;
+  margin: 0 auto;
 }
 
 .blocks-item:hover, .split-button button.blocks-item:hover, .blocks-item:focus, .blocks-item:active {
