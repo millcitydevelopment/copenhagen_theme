@@ -29,6 +29,8 @@
             {{#each sections}}
               <li class="blocks-item">
                 <a href='{{url}}' class="blocks-item-link">
+                    {{if asset id prefix='icon-' suffix='.svg'}}
+                    {{asset id prefix='icon-' suffix='.svg'}}
                     <img class="blocks-item-icon" src="{{asset id prefix='icon-' suffix='.svg'}}" />
                     <span class="blocks-item-title">
                     {{name}}
