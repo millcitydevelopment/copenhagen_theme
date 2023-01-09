@@ -6,7 +6,7 @@ $header-height: 71px;
   position: relative;
   align-items: center;
   display: flex;
-  height: $header-height;
+  //height: $header-height;
   justify-content: space-between;
   background-color:#ee4025;
 }
@@ -95,6 +95,7 @@ $header-height: 71px;
       font-size:16px;
       color:white;
       padding:5px;
+      margin:5px;
     }
 
   }
