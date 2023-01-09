@@ -775,6 +775,7 @@ ul {
 @media (min-width: 1024px) {
   .nav-wrapper-desktop {
     display: inline-flex;
+    width: 100%;
   }
 }
 

@@ -104,7 +104,7 @@ $header-height: 80px;
 .nav-wrapper-desktop {
   @include mobile { display: none; }
   @include tablet { display: none; }
-  @include desktop { display: inline-flex; }
+  @include desktop { display: inline-flex; width:100%;}
 
   a {
     @include tablet {
