@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
     toggle.focus();
   }
 
-  var menuButton = document.querySelector('.header .menu-button-mobile');
+  var menuButton = document.querySelector('.menu-button-mobile');
   var menuList = document.querySelector('#user-nav-mobile');
 
   menuButton.addEventListener('click', function(e) {
