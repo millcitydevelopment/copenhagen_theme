@@ -1,5 +1,5 @@
 /***** Header *****/
-$header-height: 78px;
+$header-height: 80px;
 
 .header {
   @include full-width-container;
@@ -132,6 +132,8 @@ $header-height: 78px;
 
 .nav-wrapper-mobile {
   @include desktop { display: none; }
+  box-shadow:1px 1px 15px 1px RGB(0 0 0 / 25%);
+  margin-bottom: 15px;
 
   .menu-button-mobile {
     background: none;

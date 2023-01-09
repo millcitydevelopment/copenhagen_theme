@@ -724,7 +724,7 @@ ul {
   border: solid 1px #ddd;
   right: 0;
   left: 0;
-  top: 78px;
+  top: 80px;
   z-index: 1;
 }
 
@@ -803,6 +803,11 @@ ul {
   text-decoration: underline;
 }
 
+.nav-wrapper-mobile {
+  box-shadow: 1px 1px 15px 1px RGB(0 0 0/25%);
+  margin-bottom: 15px;
+}
+
 @media (min-width: 1024px) {
   .nav-wrapper-mobile {
     display: none;
@@ -837,7 +842,7 @@ ul {
   border-bottom: solid 1px #ddd;
   right: 0;
   left: 0;
-  top: 78px;
+  top: 80px;
   z-index: 2;
 }
 
