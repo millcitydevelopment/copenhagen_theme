@@ -680,7 +680,6 @@ ul {
 }
 
 .header-top-bar .top-nav li a {
-  padding: 14px;
   font-size: 12px;
   color: black;
 }
@@ -758,6 +757,7 @@ ul {
   color: white;
   padding: 5px;
   margin: 5px;
+  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -774,7 +774,7 @@ ul {
 
 @media (min-width: 1024px) {
   .nav-wrapper-desktop {
-    display: inline-block;
+    display: inline-flex;
   }
 }
 
