@@ -695,7 +695,14 @@ ul {
 
 .logo span {
   margin: 0 10px;
-  color: $brand_color;
+  letter-spacing: .1rem;
+  color: #fff !important;
+  font-weight: 300;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  min-width: 0;
+  font-size: 4vw;
 }
 
 .logo a {

@@ -8,7 +8,6 @@ $header-height: 80px;
   display: flex;
   justify-content: space-between;
   background-color:#ee4025;
-
 }
 
 .header-top-bar {
@@ -30,25 +29,33 @@ $header-height: 80px;
 
   }
 }
+.logo {
 
-.logo img {
-  max-height: 37px;
-  vertical-align: middle;
+  img {
+    max-height: 37px;
+    vertical-align: middle;
+  }
+
+  span {
+    margin: 0 10px;
+    letter-spacing: .1rem;
+    color: #fff !important;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    min-width: 0;
+    font-size: 4vw;
+  }
+
+  a {
+    display: inline-block;
+
+    &:hover, &:focus, &:active {
+      text-decoration: none;
+    }
+  }
 }
-
-.logo span {
-  margin: 0 10px;
-  color: $brand_color;
-}
-
-.logo a {
-  display: inline-block;
-}
-
-.logo a:hover, .logo a:focus, .logo a:active {
-  text-decoration: none;
-}
-
 .user-nav {
   @include tablet { position: relative; }
   display: inline-block;
