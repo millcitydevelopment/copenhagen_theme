@@ -142,10 +142,14 @@ $header-height: 50px;
   }
 }
 
+.bottom-nav {
+  z-index:10;
+  position:relative;
+}
+
 .nav-wrapper-mobile {
   @include desktop { display: none; }
   box-shadow:1px 1px 15px 1px RGB(0 0 0 / 25%);
-  margin-bottom: 15px;
 
   .menu-button-mobile {
     background: none;
@@ -177,7 +181,6 @@ $header-height: 50px;
     border-bottom: solid 1px #ddd;
     right: 0;
     left: 0;
-    top: $header-height;
     z-index: 2;
 
     &[aria-expanded="false"] {

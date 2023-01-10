@@ -1,7 +1,7 @@
 {
   "name": "Copenhagen Redux",
   "author": "Zendesk / MCR Team",
-  "version": "2.21.10",
+  "version": "2.22.1",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
